@@ -1,0 +1,9 @@
+/*
+  Localizable.strings
+  HalloWelt
+
+  Created by Dr. Wolfram Schroers on 5/20/16.
+  Copyright © 2016 Wolfram Schroers. All rights reserved.
+*/
+"ENOUGH" = "Das reicht!";
+"REALLY!" = "GENUG!";

@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5D3E3F1CEB762800C56DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E3E1CEB762800C56DF6 /* AppDelegate.swift */; };
+		6B5D3E411CEB762800C56DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E401CEB762800C56DF6 /* ViewController.swift */; };
+		6B5D3E441CEB762800C56DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D3E421CEB762800C56DF6 /* Main.storyboard */; };
+		6B5D3E461CEB762800C56DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D3E451CEB762800C56DF6 /* Assets.xcassets */; };
+		6B5D3E491CEB762800C56DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D3E471CEB762800C56DF6 /* LaunchScreen.storyboard */; };
+		6B5D3E531CEB76AB00C56DF6 /* HolzHaufen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E521CEB76AB00C56DF6 /* HolzHaufen.swift */; };
+		6B5D3E551CEB76E600C56DF6 /* ComputerZug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E541CEB76E600C56DF6 /* ComputerZug.swift */; };
+		6B5D3E571CEB78E800C56DF6 /* EinstellungenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E561CEB78E800C56DF6 /* EinstellungenViewController.swift */; };
+		6B5D3E591CEB7D1900C56DF6 /* DummerZug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E581CEB7D1900C56DF6 /* DummerZug.swift */; };
+		6B5D3E5B1CEB7D8800C56DF6 /* KlugerComputerZug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E5A1CEB7D8800C56DF6 /* KlugerComputerZug.swift */; };
+		6B5D3E5D1CEB7DCF00C56DF6 /* ComputerStrategie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D3E5C1CEB7DCF00C56DF6 /* ComputerStrategie.swift */; };
+		6B79868B1CEE41A80062F48D /* StreichholzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B79868A1CEE41A80062F48D /* StreichholzView.swift */; };
+		6B79868D1CEE41CB0062F48D /* HaufenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B79868C1CEE41CB0062F48D /* HaufenView.swift */; };
+		6B79868F1CEE45930062F48D /* FlammenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B79868E1CEE45930062F48D /* FlammenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B5D3E3B1CEB762800C56DF6 /* Streichholz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streichholz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5D3E3E1CEB762800C56DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5D3E401CEB762800C56DF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B5D3E431CEB762800C56DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5D3E451CEB762800C56DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5D3E481CEB762800C56DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5D3E4A1CEB762800C56DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5D3E521CEB76AB00C56DF6 /* HolzHaufen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolzHaufen.swift; sourceTree = "<group>"; };
+		6B5D3E541CEB76E600C56DF6 /* ComputerZug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerZug.swift; sourceTree = "<group>"; };
+		6B5D3E561CEB78E800C56DF6 /* EinstellungenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EinstellungenViewController.swift; sourceTree = "<group>"; };
+		6B5D3E581CEB7D1900C56DF6 /* DummerZug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummerZug.swift; sourceTree = "<group>"; };
+		6B5D3E5A1CEB7D8800C56DF6 /* KlugerComputerZug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlugerComputerZug.swift; sourceTree = "<group>"; };
+		6B5D3E5C1CEB7DCF00C56DF6 /* ComputerStrategie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerStrategie.swift; sourceTree = "<group>"; };
+		6B79868A1CEE41A80062F48D /* StreichholzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreichholzView.swift; sourceTree = "<group>"; };
+		6B79868C1CEE41CB0062F48D /* HaufenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaufenView.swift; sourceTree = "<group>"; };
+		6B79868E1CEE45930062F48D /* FlammenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlammenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5D3E381CEB762800C56DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B5D3E321CEB762700C56DF6 = {
+			isa = PBXGroup;
+			children = (
+				6B5D3E3D1CEB762800C56DF6 /* Streichholz */,
+				6B5D3E3C1CEB762800C56DF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5D3E3C1CEB762800C56DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D3E3B1CEB762800C56DF6 /* Streichholz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5D3E3D1CEB762800C56DF6 /* Streichholz */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D3E3E1CEB762800C56DF6 /* AppDelegate.swift */,
+				6B5D3E401CEB762800C56DF6 /* ViewController.swift */,
+				6B5D3E421CEB762800C56DF6 /* Main.storyboard */,
+				6B5D3E451CEB762800C56DF6 /* Assets.xcassets */,
+				6B5D3E471CEB762800C56DF6 /* LaunchScreen.storyboard */,
+				6B5D3E4A1CEB762800C56DF6 /* Info.plist */,
+				6B5D3E521CEB76AB00C56DF6 /* HolzHaufen.swift */,
+				6B5D3E541CEB76E600C56DF6 /* ComputerZug.swift */,
+				6B5D3E561CEB78E800C56DF6 /* EinstellungenViewController.swift */,
+				6B5D3E581CEB7D1900C56DF6 /* DummerZug.swift */,
+				6B5D3E5A1CEB7D8800C56DF6 /* KlugerComputerZug.swift */,
+				6B5D3E5C1CEB7DCF00C56DF6 /* ComputerStrategie.swift */,
+				6B79868A1CEE41A80062F48D /* StreichholzView.swift */,
+				6B79868C1CEE41CB0062F48D /* HaufenView.swift */,
+				6B79868E1CEE45930062F48D /* FlammenView.swift */,
+			);
+			path = Streichholz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5D3E3A1CEB762800C56DF6 /* Streichholz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5D3E4D1CEB762800C56DF6 /* Build configuration list for PBXNativeTarget "Streichholz" */;
+			buildPhases = (
+				6B5D3E371CEB762800C56DF6 /* Sources */,
+				6B5D3E381CEB762800C56DF6 /* Frameworks */,
+				6B5D3E391CEB762800C56DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Streichholz;
+			productName = Streichholz;
+			productReference = 6B5D3E3B1CEB762800C56DF6 /* Streichholz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5D3E331CEB762700C56DF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wolfram Schroers";
+				TargetAttributes = {
+					6B5D3E3A1CEB762800C56DF6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6B5D3E361CEB762700C56DF6 /* Build configuration list for PBXProject "Streichholz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5D3E321CEB762700C56DF6;
+			productRefGroup = 6B5D3E3C1CEB762800C56DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5D3E3A1CEB762800C56DF6 /* Streichholz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5D3E391CEB762800C56DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5D3E491CEB762800C56DF6 /* LaunchScreen.storyboard in Resources */,
+				6B5D3E461CEB762800C56DF6 /* Assets.xcassets in Resources */,
+				6B5D3E441CEB762800C56DF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5D3E371CEB762800C56DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5D3E5B1CEB7D8800C56DF6 /* KlugerComputerZug.swift in Sources */,
+				6B79868F1CEE45930062F48D /* FlammenView.swift in Sources */,
+				6B5D3E5D1CEB7DCF00C56DF6 /* ComputerStrategie.swift in Sources */,
+				6B5D3E571CEB78E800C56DF6 /* EinstellungenViewController.swift in Sources */,
+				6B5D3E411CEB762800C56DF6 /* ViewController.swift in Sources */,
+				6B5D3E551CEB76E600C56DF6 /* ComputerZug.swift in Sources */,
+				6B5D3E3F1CEB762800C56DF6 /* AppDelegate.swift in Sources */,
+				6B5D3E591CEB7D1900C56DF6 /* DummerZug.swift in Sources */,
+				6B79868D1CEE41CB0062F48D /* HaufenView.swift in Sources */,
+				6B5D3E531CEB76AB00C56DF6 /* HolzHaufen.swift in Sources */,
+				6B79868B1CEE41A80062F48D /* StreichholzView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B5D3E421CEB762800C56DF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5D3E431CEB762800C56DF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B5D3E471CEB762800C56DF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5D3E481CEB762800C56DF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B5D3E4B1CEB762800C56DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B5D3E4C1CEB762800C56DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5D3E4E1CEB762800C56DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Streichholz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nua-schroers.Streichholz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B5D3E4F1CEB762800C56DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Streichholz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nua-schroers.Streichholz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5D3E361CEB762700C56DF6 /* Build configuration list for PBXProject "Streichholz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5D3E4B1CEB762800C56DF6 /* Debug */,
+				6B5D3E4C1CEB762800C56DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5D3E4D1CEB762800C56DF6 /* Build configuration list for PBXNativeTarget "Streichholz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5D3E4E1CEB762800C56DF6 /* Debug */,
+				6B5D3E4F1CEB762800C56DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5D3E331CEB762700C56DF6 /* Project object */;
+}

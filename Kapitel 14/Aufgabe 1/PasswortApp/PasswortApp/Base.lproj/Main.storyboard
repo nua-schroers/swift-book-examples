@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PasswortApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QkU-BX-0Ve">
+                                <rect key="frame" x="142" y="40" width="317" height="29"/>
+                                <segments>
+                                    <segment title="Ziffern"/>
+                                    <segment title="Buchstaben"/>
+                                    <segment title="Sonderzeichen"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5O-vM-M9j">
+                                <rect key="frame" x="266" y="137" width="69" height="30"/>
+                                <state key="normal" title="Erzeugen!"/>
+                                <connections>
+                                    <action selector="benutzerDruecktErzeugen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="359-cK-bTp"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ilz-ZQ-bcv">
+                                <rect key="frame" x="150" y="270" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Pmp-1o-OjS"/>
+                                    <constraint firstAttribute="height" constant="300" id="Tmn-uO-LKU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="—" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtV-pO-4Ba">
+                                <rect key="frame" x="30" y="88" width="540" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l5O-vM-M9j" firstAttribute="top" secondItem="vtV-pO-4Ba" secondAttribute="bottom" constant="20" id="0Lr-e4-Kvn"/>
+                            <constraint firstItem="vtV-pO-4Ba" firstAttribute="top" secondItem="QkU-BX-0Ve" secondAttribute="bottom" constant="20" id="AdN-Ik-5jf"/>
+                            <constraint firstItem="vtV-pO-4Ba" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AnW-5e-YVu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vtV-pO-4Ba" secondAttribute="trailing" constant="10" id="Bru-pL-yrm"/>
+                            <constraint firstItem="vtV-pO-4Ba" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="G3c-1H-SRy"/>
+                            <constraint firstItem="ilz-ZQ-bcv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pu4-h9-voi"/>
+                            <constraint firstItem="QkU-BX-0Ve" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="a5G-rx-9J5"/>
+                            <constraint firstItem="l5O-vM-M9j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7c-8p-y7s"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ilz-ZQ-bcv" secondAttribute="bottom" constant="30" id="cgb-84-Xjo"/>
+                            <constraint firstItem="vtV-pO-4Ba" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="kD2-T6-qDQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vtV-pO-4Ba" secondAttribute="trailing" constant="10" id="lpo-aG-UrB"/>
+                            <constraint firstItem="vtV-pO-4Ba" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pHe-FB-Iqh"/>
+                            <constraint firstItem="QkU-BX-0Ve" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q8b-mo-Hlm"/>
+                            <constraint firstItem="vtV-pO-4Ba" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="rQ2-v2-fRq"/>
+                            <constraint firstItem="l5O-vM-M9j" firstAttribute="top" secondItem="QkU-BX-0Ve" secondAttribute="bottom" constant="20" id="wJG-9q-bp7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="AnW-5e-YVu"/>
+                                <exclude reference="G3c-1H-SRy"/>
+                                <exclude reference="lpo-aG-UrB"/>
+                                <exclude reference="rQ2-v2-fRq"/>
+                                <exclude reference="wJG-9q-bp7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="passwortAuswahl" destination="QkU-BX-0Ve" id="2XA-vK-LQQ"/>
+                        <outlet property="passwortLabel" destination="vtV-pO-4Ba" id="p7H-wD-GbG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="299" height="299"/>
+    </resources>
+</document>

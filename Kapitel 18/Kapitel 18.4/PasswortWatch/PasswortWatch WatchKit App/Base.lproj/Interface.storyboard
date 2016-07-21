@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PasswortWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="—" textAlignment="center" id="Vss-P1-Nco"/>
+                        <button width="1" alignment="left" title="Buchstaben" id="rCf-tk-6jG">
+                            <connections>
+                                <action selector="benutzerTippBuchstaben" destination="AgC-eL-Hgc" id="5Gs-Q6-5Sj"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Ziffern" id="k4h-Lx-jZO">
+                            <connections>
+                                <action selector="benutzerTipptZiffern" destination="AgC-eL-Hgc" id="WFm-1l-5me"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="passwortLabel" destination="Vss-P1-Nco" id="lh1-zw-Gws"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="339" y="429"/>
+        </scene>
+    </scenes>
+</document>
