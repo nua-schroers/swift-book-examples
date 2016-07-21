@@ -1,0 +1,17 @@
+Swift -- der Sprachkurs für Einsteiger und Individualisten
+
+Dieses Verzeichnis enthält die Beispielprojekte und mögliche Lösungen
+der meisten Übungsaufgaben des Buches.
+
+Übersicht über alle Verzeichnisse:
+
+* Lizenz: Enthält ein PDF mit den Lizenzbestimmungen der
+  Beispielprojekte und Übungen. Für eine (englischsprachige)
+  Kurzübersicht siehe auch diese Seite:
+  http://creativecommons.org/licenses/by-nc-nd/4.0/
+  (Eine deutsche Übersetzung der Lizenz ist in Arbeit, ist allerdings
+  noch nicht fertig.)
+
+* Kapitel <n>: Enthält die Codebeispiele und möglichen Lösungen des
+  jeweiligen Kapitels. Die Dateien können mit Xcode geöffnet werden.
+
